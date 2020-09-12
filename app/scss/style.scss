@@ -1,0 +1,15 @@
+html {
+  box-sizing: border-box;
+}
+*,*::before,
+*::after{
+	box-sizing: inherit;
+}
+body {
+  background-color: olive;
+}
+.box {
+  line-height: 15px;
+  display: flex;
+  transition: all 0.3s;
+}
