@@ -356,16 +356,55 @@
     line-height: 36px;
     color: #fff;
     margin-right: 45px;
-    span{
+    span {
       @include f700;
     }
   }
   &__link {
     font-size: 18px;
     line-height: 36px;
-    padding:14px 40px;
+    padding: 14px 40px;
     background-color: #fff;
   }
 }
 
 // end author
+
+// start tutorial
+.tutorial {
+  background-color: #fff;
+  padding: 70px 0px 120px;
+  
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__item {
+    max-width: 370px;
+    width: 100%;
+  }
+}
+.tutorial__item{
+  img{
+    display: block;
+  }
+  &-images{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+  }
+  &-title{
+    background-color: #f7f7f7;
+    font-size: 24px;
+    text-align: center;
+    @include f700;
+    padding: 30px 10px;
+    color:$bg;
+
+  }
+}
+
+
+// end tutorial
