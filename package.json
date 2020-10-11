@@ -25,6 +25,7 @@
     "slick-carousel": "^1.8.1"
   },
   "dependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
     "browserify": "^16.5.2",
     "ion-rangeslider": "^2.3.1"
   }
