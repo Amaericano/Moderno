@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
   <body>
+    <div class="wrapper">
+      <div class="content">
         <header class="header">
           <div class="header__top">
             <div class="container">
@@ -25,19 +27,25 @@
                     <img src="images/logo.png" alt="logo" />
                   </a>
                 </div>
+
                 <div class="header__text">
                   <a href="#"> <span>Need Help?</span></a>
                   Talk to an expert:
                   <a class="header__phone" href="tel:61383766284"> +61 3 8376 6284</a>
                 </div>
+
                 <div class="header__box">
                   <div class="notification__box">
-                  <a class="notification header__circle active icon-bell-o" href="#"><span>8</span></a>
+                  <a class="notification header__circle active icon-bell-o" href="#"
+                    ><span>8</span></a
+                  >
+                
                 <div class="circle__menu notification__menu">
                   <a class="circle__item icon-bell-o icons__color" href="#">
                     <img src="images/content/kazi.jpg" alt="" class="circle__images">
                   <div class="circle__info">
                     <div class="circle__info-name">Kazi Fahim</div>
+                   
                     <div class="circle__info-date">01 Dec,2016</div>
                   </div>
                 </a>
@@ -60,6 +68,7 @@
                     </a>
                   </div>
                 </div>
+
                   <div class="message__box">
                   <a class="message header__circle active icon-envelope-o" href="#"
                     ><span>5</span></a
@@ -90,11 +99,14 @@
                           <div class="circle__info-date">26 Nov,2016</div>
                         </div>
                       </a>
+
                     </div>
                 </div>
+
                   <div class="basket__box">
                     <a class="basket header__circle active icon-shopping-cart" href="#"
                       ><span>8</span></a>
+
                     <div class="circle__menu">
                       <div class="circle__item">
                         <img src="images/content/mini_image1.jpg" alt="" class="circle__images">
@@ -148,12 +160,15 @@
                       </ul>
                     </div>
                   </div>
+
                   <a href="#"></a>
                   <a class="header__btn header__btn-login header__btn-login--off" href="#">Login</a>
                   <a class="header__btn header__btn-logout header__btn-login--on" href="#"
-                    >Logout</a>
+                    >Logout</a
+                  >
                   <a class="header__btn header__btn-register header__btn-login--off" href="#"
-                    >Register</a>
+                    >Register</a
+                  >
                 </div>
                 <div class="header__btn-menu icon-user">
                 </div>
@@ -203,276 +218,285 @@
               </nav>
             </div>
           </div>
-        </header>
-        <section class="search page-search" style="background-image: url(images/bgforsearch.jpg)">
-          <div class="container">
-            <div class="search__inner">
-              <div class="search__inner-text">
-                Premium WordPress Themes, Web Templates and Many More ...
-              </div>
-              <div class="search__inner-form">
-                <form>
-                  <input type="text" placeholder="Search Your Keywords . . ." required />
-                  <button type="submit">
-                    <img src="images/icons/search.svg" alt="search ico" />
-                  </button>
-                </form>
-              </div>
-            </div>
-          </div>
-        </section>
-        <div class="breadcrumbs">
-          <div class="container">
-            <div class="breadcrumbs__inner">
-              <ul class="breadcrumbs__list">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Product Page</a></li>
-                <li><span href="#">GT Builder Construction</span></li>
-              </ul>
-            </div>
+        </header> 
+      </div>
+      <div class="breadcrumbs">
+        <div class="container">
+          <div class="breadcrumbs__inner">
+            <ul class="breadcrumbs__list">
+              <li><a href="#">Home</a></li>
+              <li><span href="#">Settings</a></li>
+            </ul>
           </div>
         </div>
-      <section class="product-one">
+      </div>
+      <section class="settings">
         <div class="container">
-          <div class="product-one__inner">
-            <div class="product-one__content">
-              <div class="product-one__images-inner">
-              <div class="product-one__images" style="background-image: url(images/content/product1.jpg);"> </div>
+          <div class="product-one__tabs settings__tabs">           
+            <div class="tabs">
+                    <span class="tab angle-right active" data-id="1" >Personal Information</span>
+                    <span class="tab angle-right" data-id="2">Badges</span>
+                    <span class="tab angle-right" data-id="3">E-mail Settings</span>
+                    <span class="tab angle-right" data-id="4">Social Network</span>
+                    <span class="tab angle-right" data-id="5">Profile</span>
             </div>
-              <div class="product-one__title">
-                GTBuilder - Construction & Building WordPress Theme
+            <div class="tab__content">
+              <div class="tab-item active-tab" id="1">
+                <div class="page-box">
+                  <div class="page-box__title">Personal Information</div>
+                  <div class="page-box__content">
+                    <form action="#">
+                      <div class="settings__line">
+                        <label>First Name</label>
+                          <input type="text">
+                      </div>
+                      <div class="settings__line">
+                        <label>Last Name</label>
+                          <input type="text">
+                      </div>
+                      <div class="settings__line">
+                        <label>Company Name</label>
+                          <input type="text">
+                      </div>
+                      <div class="settings__line">
+                        <label>Country</label>
+                          <select>
+                            <option value="">Select Your Country</option>
+                            <option value="">Select Your Country</option>
+                          </select>
+                      </div>
+                      <div class="settings__line">
+                        <label>Address Line 1</label>
+                          <input type="text">
+                      </div>
+                      <div class="settings__line">
+                        <label>Address Line 2</label>
+                          <input type="text">
+                      </div>
+                      <div class="settings__line">
+                        <label>City</label>
+                          <input type="text">
+                      </div>
+                      <div class="settings__line">
+                        <label>State / Province /Region</label>
+                          <input type="text">
+                      </div>
+                      <div class="settings__line">
+                        <label>Zip / Postal Code</label>
+                          <input type="text">
+                      </div>
+                      <button type="submit">Update</button>
+                    </form>
+                  </div>   
+                </div>
+
               </div>
-              <p class="product-one__text">
-                Bmply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived noning essentially unchanged.
-              </p>
-              <div class="product-one__box">
-                <div class="product-one__link">
-                  <a class="link-live" href="#">Live Preview</a>
-                  <a class="link-screenshots" href="#">Screenshots</a>
-                  <a class="link-documentation" href="#">Documentation</a>
+              <div class="tab-item" id="2">
+                
+                <div class="page-box">
+                  <div class="page-box__title">Personal Information</div>
+                  <div class="page-box__content">
+                    <form action="#">
+                      <div class="settings__line">
+                        <label>First Name</label>
+                          <input type="text">
+                      </div>
+                      <div class="settings__line">
+                        <label>Last Name</label>
+                          <input type="text">
+                      </div>
+                      <div class="settings__line">
+                        <label>Company Name</label>
+                          <input type="text">
+                      </div>
+                      <div class="settings__line">
+                        <label>Country</label>
+                          <select>
+                            <option value="">Select Your Country</option>
+                            <option value="">Select Your Country</option>
+                          </select>
+                      </div>
+                      <div class="settings__line">
+                        <label>Address Line 1</label>
+                          <input type="text">
+                      </div>
+                      <div class="settings__line">
+                        <label>Address Line 2</label>
+                          <input type="text">
+                      </div>
+                      <div class="settings__line">
+                        <label>City</label>
+                          <input type="text">
+                      </div>
+                      <div class="settings__line">
+                        <label>State / Province /Region</label>
+                          <input type="text">
+                      </div>
+                      <div class="settings__line">
+                        <label>Zip / Postal Code</label>
+                          <input type="text">
+                      </div>
+                      <button type="submit">Update</button>
+                    </form>
+                  </div>   
                 </div>
-                <div class="product-one__social">
-                  <a class="icon-facebook" href="#"></a>
-                  <a class="icon-twitter" href="#"></a>
-                  <a class="icon-linkedin" href="#"></a>
-                  <a class="icon-pinterest-p" href="#"></a>
+
+              </div>
+              <div class="tab-item" id="3">
+                
+                <div class="page-box">
+                  <div class="page-box__title">Personal Information</div>
+                  <div class="page-box__content">
+                    <form action="#">
+                      <div class="settings__line">
+                        <label>First Name</label>
+                          <input type="text">
+                      </div>
+                      <div class="settings__line">
+                        <label>Last Name</label>
+                          <input type="text">
+                      </div>
+                      <div class="settings__line">
+                        <label>Company Name</label>
+                          <input type="text">
+                      </div>
+                      <div class="settings__line">
+                        <label>Country</label>
+                          <select>
+                            <option value="">Select Your Country</option>
+                            <option value="">Select Your Country</option>
+                          </select>
+                      </div>
+                      <div class="settings__line">
+                        <label>Address Line 1</label>
+                          <input type="text">
+                      </div>
+                      <div class="settings__line">
+                        <label>Address Line 2</label>
+                          <input type="text">
+                      </div>
+                      <div class="settings__line">
+                        <label>City</label>
+                          <input type="text">
+                      </div>
+                      <div class="settings__line">
+                        <label>State / Province /Region</label>
+                          <input type="text">
+                      </div>
+                      <div class="settings__line">
+                        <label>Zip / Postal Code</label>
+                          <input type="text">
+                      </div>
+                      <button type="submit">Update</button>
+                    </form>
+                  </div>   
                 </div>
+
+              </div>
+              <div class="tab-item" id="4">
+                
+                <div class="page-box">
+                  <div class="page-box__title">Personal Information</div>
+                  <div class="page-box__content">
+                    <form action="#">
+                      <div class="settings__line">
+                        <label>First Name</label>
+                          <input type="text">
+                      </div>
+                      <div class="settings__line">
+                        <label>Last Name</label>
+                          <input type="text">
+                      </div>
+                      <div class="settings__line">
+                        <label>Company Name</label>
+                          <input type="text">
+                      </div>
+                      <div class="settings__line">
+                        <label>Country</label>
+                          <select>
+                            <option value="">Select Your Country</option>
+                            <option value="">Select Your Country</option>
+                          </select>
+                      </div>
+                      <div class="settings__line">
+                        <label>Address Line 1</label>
+                          <input type="text">
+                      </div>
+                      <div class="settings__line">
+                        <label>Address Line 2</label>
+                          <input type="text">
+                      </div>
+                      <div class="settings__line">
+                        <label>City</label>
+                          <input type="text">
+                      </div>
+                      <div class="settings__line">
+                        <label>State / Province /Region</label>
+                          <input type="text">
+                      </div>
+                      <div class="settings__line">
+                        <label>Zip / Postal Code</label>
+                          <input type="text">
+                      </div>
+                      <button type="submit">Update</button>
+                    </form>
+                  </div>   
+                </div>
+              </div>
+
+              <div class="tab-item" id="5">
+                
+                <div class="page-box">
+                  <div class="page-box__title">Personal Information</div>
+                  <div class="page-box__content">
+                    <form action="#">
+                      <div class="settings__line">
+                        <label>First Name</label>
+                          <input type="text">
+                      </div>
+                      <div class="settings__line">
+                        <label>Last Name</label>
+                          <input type="text">
+                      </div>
+                      <div class="settings__line">
+                        <label>Company Name</label>
+                          <input type="text">
+                      </div>
+                      <div class="settings__line">
+                        <label>Country</label>
+                          <select>
+                            <option value="">Select Your Country</option>
+                            <option value="">Select Your Country</option>
+                          </select>
+                      </div>
+                      <div class="settings__line">
+                        <label>Address Line 1</label>
+                          <input type="text">
+                      </div>
+                      <div class="settings__line">
+                        <label>Address Line 2</label>
+                          <input type="text">
+                      </div>
+                      <div class="settings__line">
+                        <label>City</label>
+                          <input type="text">
+                      </div>
+                      <div class="settings__line">
+                        <label>State / Province /Region</label>
+                          <input type="text">
+                      </div>
+                      <div class="settings__line">
+                        <label>Zip / Postal Code</label>
+                          <input type="text">
+                      </div>
+                      <button type="submit">Update</button>
+                    </form>
+                  </div>   
+                </div>
+
+              </div>
             </div>
-            <div class="product-one__tabs">           
-                <div class="tabs">
-                        <span class="tab active" data-id="1" >Item Features</span>
-                        <span class="tab" data-id="2">Comments</span>
-                        <span class="tab" data-id="3">Reviews</span>
-                        <span class="tab" data-id="4">Support</span>
-                </div>
-                <div class="tab__content">
-                  <div class="tab-item active-tab" id="1">
-                    <ul class="tab-items__list">
-                      <li class="angle-right">Printing and typesetting industry</li>
-                      <li class="angle-right">Bhen an unknown printe</li>
-                      <li class="angle-right">Handard dummy text</li>
-                      <li class="angle-right">Desktop publishing software</li>
-                      <li class="angle-right">Bhen an unknown printe</li>
-                      <li class="angle-right">Printing and typesetting industry</li>
-                      <li class="angle-right">Bhen an unknown printe</li>
-                      <li class="angle-right">Handard dummy text</li>
-                    </ul>
-                  </div>
-                  <div class="tab-item" id="2">
-                    <ul class="tab-items__list">
-                      <li class="angle-right">Printing and typesetting industry</li>
-                      <li class="angle-right">Bhen an unknown printe</li>
-                      <li class="angle-right">Handard dummy text</li>
-                      <li class="angle-right">Desktop publishing software</li>
-                      <li class="angle-right">Bhen an unknown printe</li>
-                      <li class="angle-right">Printing and typesetting industry</li>
-                      <li class="angle-right">Bhen an unknown printe</li>
-                      <li class="angle-right">Handard dummy text</li>
-                    </ul>
-                  </div>
-                  <div class="tab-item" id="3">
-                    <ul class="tab-items__list">
-                      <li class="angle-right">Printing and typesetting industry</li>
-                      <li class="angle-right">Bhen an unknown printe</li>
-                      <li class="angle-right">Handard dummy text</li>
-                      <li class="angle-right">Desktop publishing software</li>
-                      <li class="angle-right">Bhen an unknown printe</li>
-                      <li class="angle-right">Printing and typesetting industry</li>
-                      <li class="angle-right">Bhen an unknown printe</li>
-                      <li class="angle-right">Handard dummy text</li>
-                    </ul>
-                  </div>
-                  <div class="tab-item" id="4">
-                    <ul class="tab-items__list">
-                      <li class="angle-right">Printing and typesetting industry</li>
-                      <li class="angle-right">Bhen an unknown printe</li>
-                      <li class="angle-right">Handard dummy text</li>
-                      <li class="angle-right">Desktop publishing software</li>
-                      <li class="angle-right">Bhen an unknown printe</li>
-                      <li class="angle-right">Printing and typesetting industry</li>
-                      <li class="angle-right">Bhen an unknown printe</li>
-                      <li class="angle-right">Handard dummy text</li>
-                    </ul>
-                  </div>
-                </div>
-            </div>
-              <div class="product-one__more">
-                <div class="product-one__more-title">
-                  More Product By PsdBoss
-                </div>
-              <div class="product-one__more-icons">
-                <div class="product-one__more-icon productmini">
-                  <div class="productmini__images" style="background-image: url(images/content/more1.jpg);"></div>
-                  <div class="productmini__info">
-                    <div class="productmini__name">
-                      Grand Ballet - Dance
-                    </div>
-                    <div class="productmini__theme">PSD -Template</div>
-                    <div class="productmini__price">
-                      $12
-                    </div>
-                  </div>
-                </div>
-                <div class="product-one__more-icon productmini">
-                  <div class="productmini__images" style="background-image: url(images/content/more2.jpg);"></div>
-                  <div class="productmini__info">
-                    <div class="productmini__name">
-                      Grand Ballet - Dance
-                    </div>
-                    <div class="productmini__theme">PSD -Template</div>
-                    <div class="productmini__price">
-                      $59
-                    </div>
-                  </div>
-                </div>
-                <div class="product-one__more-icon productmini">
-                  <div class="productmini__images" style="background-image: url(images/content/more3.jpg);"></div>
-                  <div class="productmini__info">
-                    <div class="productmini__name">
-                      Grand Ballet - Dance
-                    </div>
-                    <div class="productmini__theme">PSD -Template</div>
-                    <div class="productmini__price">
-                      $48
-                    </div>
-                  </div>
-                </div>
-                <div class="product-one__more-icon productmini">
-                  <div class="productmini__images" style="background-image: url(images/content/more4.jpg);"></div>
-                  <div class="productmini__info">
-                    <div class="productmini__name">
-                      Grand Ballet - Dance
-                    </div>
-                    <div class="productmini__theme">Component</div>
-                    <div class="productmini__price">
-                      $18
-                    </div>
-                  </div>
-                </div>
-                <div class="product-one__more-icon productmini">
-                  <div class="productmini__images" style="background-image: url(images/content/more5.jpg);"></div>
-                  <div class="productmini__info">
-                    <div class="productmini__name">
-                      Grand Ballet - Dance
-                    </div>
-                    <div class="productmini__theme">PSD -Template</div>
-                    <div class="productmini__price">
-                      $29
-                    </div>
-                  </div>
-                </div>
-                <div class="product-one__more-icon productmini">
-                  <div class="productmini__images" style="background-image: url(images/content/more6.jpg);"></div>
-                  <div class="productmini__info">
-                    <div class="productmini__name">
-                      Grand Ballet - Dance
-                    </div>
-                    <div class="productmini__theme">Hoomla</div>
-                    <div class="productmini__price">
-                      $18
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>  
-          </div>
-          <div class="product-one__aside">
-            <div class="aside__item product__price">
-              <div class="aside__title">
-                Product Price
-              </div>
-              <div class="price__box">
-                <div class="price__product">$59.00</div>
-                <form action="">
-                  <select>
-                    <option value="regular">regular</option>
-                    <option value="premium">premium</option>
-                  </select>
-                </form>
-              </div>
-              <button class="icon-shopping-cart">Add to Cart</button>
-              <button class="icon-heart-o">Add to Favorites</button>
-              <button>Buy Now</button>
-            </div>
-            <div class="aside__item">
-              <div class="aside__title">
-                Product Author
-              </div>
-              <div class="product-author__box">
-                <div class="author__avatar">
-                  <img src="images/content/avatar.jpg" alt="">
-                </div>
-                <div class="author__info">
-                  <div class="author__name">
-                    PsdBoss
-                  </div>
-                  <a class="author__info-link" href="#">View Profile</a>
-                </div>
-              </div>
-              <ul class="author__awards-list">
-                <li class="icon-meh-o"></li>
-                <li class="icon-pagelines"></li>
-                <li class="icon-bolt"></li>
-                <li class="icon-foursquare"></li>
-                <li class="icon-cny"></li>
-              </ul>
-            </div>
-            <div class="aside__item sales-number">
-              <div class="aside__item-sales">
-                <span>05</span>Sales
-              </div>
-            </div>
-            <div class="aside__item">
-              <div class="aside__title">
-                Product Information
-              </div>
-              <div class="information__line">
-                <span>
-                  Released On:</span>1 January, 2016
-              </div>
-              <div class="information__line">
-                <span>
-                  Last Update:</span>20 April, 2016
-              </div>
-              <div class="information__line">
-                <span>
-                  Download: </span>613
-              </div>
-              <div class="information__line">
-                <span>
-                  Version:</span>1.1
-              </div>
-              <div class="information__line">
-                <span>
-                  Compatibility:</span> Wordpress 4+
-              </div>
-              <div class="information__line">
-                <span>
-                  Compatible Browsers: </span>IE9, IE10, IE11, Firefox, Safari, 
-              Opera, Chrome
-              </div>
-            </div>  
-          </div>
+        </div>
         </div>
       </section>
       <footer class="footer">
@@ -492,6 +516,7 @@
                   +61 3 8376 6284
                 </a>
               </div>
+
               <div class="footer__col footer__col-menu">
                 <div class="footer__col-title">Join Our Community</div>
                 <ul class="footer__col-list">
@@ -502,6 +527,7 @@
                   <li><a href="#">Become an Affiliate</a></li>
                 </ul>
               </div>
+
               <div class="footer__col footer__col-menu">
                 <div class="footer__col-title">Need Help?</div>
                 <ul class="footer__col-list">
@@ -512,6 +538,7 @@
                   <li><a href="#">Contact Us</a></li>
                 </ul>
               </div>
+
               <div class="footer__col footer__col-social">
                 <div class="footer__col-title">Follow Us On</div>
                 <ul class="footer__social-link">
@@ -532,6 +559,7 @@
             </div>
           </div>
         </div>
+
         <div class="footer__copy">
           <div class="container">
             <div class="footer__copy-text">
@@ -542,6 +570,7 @@
         </div>
       </footer>
     </div>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/libs.min.js"></script>
     <script src="js/main.js"></script>
